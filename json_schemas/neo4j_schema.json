@@ -1,0 +1,138 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"$id": "http://json-schema.org/schema#",
+
+	"definitions": {
+		"Employee": {
+			"$id": "#employee",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"name": { "type": "string", "pattern" : "([a-z-]+ [a-z-]+)" },
+				"title": { "type": "string" },
+				"reportsTo": { "$ref": "#employee" },
+				"birthdate": { "type": "string" },
+				"hiredate": { "type": "string" },
+				"address": { "type": "string" },
+				"phone": { "type": "string" },
+				"fax": { "type": "string" },
+				"email": { "type": "string" }
+			},
+
+			"required": [ "id", "name", "birthdate", "hiredate", "address", "phone" ]
+		},
+
+		"Customer": {
+			"$id": "#customer",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"name": { "type": "string", "pattern" : "([a-z-]+ [a-z-]+)" },
+				"company": { "type": "string" },
+				"address": { "type": "string" },
+				"phone": { "type": "string" },
+				"fax": { "type": "string" },
+				"email": { "type": "string" },
+				"supportRep": { "$ref": "#employee" }
+			},
+			"required": [ "id", "name", "company", "address", "phone", "email" ]
+		},
+
+		"Invoice": {
+			"$id": "#invoice",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"customer":  {"$ref":  "#customer"},
+				"invoiceDate": { "type": "string" },
+				"billingAddress": { "type": "string" },
+				"total": { "type": "number" },
+				"tracks" : {
+					"type" : "array",
+					"items" : {"$ref" : "#track"}
+				}
+			},
+			"required": [ "id", "customer", "invoicedate", "billingAddress", "total" ]
+		},
+
+		"Artist": {
+			"$id": "#artist",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"name": { "type": "string" }
+			},
+			"required": [ "id", "name" ]
+		},
+
+		"MediaType": {
+			"$id": "#mediatype",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"name": { "type": "string" }
+			},
+			"required": [ "id", "name" ]
+		},
+
+		"Genre": {
+			"$id": "#genre",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"name": { "type": "string" }
+			},
+			"required": [ "id", "name" ]
+		},
+
+		"Album": {
+			"$id": "#album",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"title": { "type": "string" },
+				"artist": { "$ref": "#artist" }
+			},
+			"required": [ "id", "title" "artist" ]
+		},
+
+		"Playlist" : {
+			"$id" : "#playlist",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"name" : {"type" : "string"},
+				"tracks" : {
+					"type" : "array",
+					"items" : {"$ref" : "#track"}
+				}
+			},
+			"required" : ["id", "name"]
+		},
+
+		"Track": {
+			"$id": "#track",
+			"type": "object",
+			"properties": {
+				"id": { "type": "number" },
+				"name": { "type": "string" },
+				"album": { "$ref": "#album" },
+				"mediatype": { "$ref": "#meditype" },
+				"genre": { "$ref": "#genre" },
+				"composer": { "type": "string" },
+				"milliseconds": { "type": "number" },
+				"bytes": { "type": "number" },
+				"unitprice": { "type": "number" },
+				"invoices" : {
+					"type" : "array",
+					"items" : {"$ref" : "#invoice"}
+				},
+				"playlists" : {
+					"type" : "array",
+					"items" : {"$ref" : "#playlist"}
+				}
+			},
+			"required" : ["id", "name", "mediatype", "genre", "milliseconds", "bytes", "unitprice"]
+		}
+	}
+}
