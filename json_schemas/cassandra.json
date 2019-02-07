@@ -1,7 +1,7 @@
 {
 	"$schema" : "http://json-schema.org/schema#",
 	"$id" : "http://json-schema.org/schema#",
-	"_comment" : "address and telephone are reused types (see employee, customer and invoice",
+	"_comment" : "address and telephone are reused types (see employee, customer and invoice)",
 
 	"definitions" : {
 		"address" : {
