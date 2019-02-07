@@ -13,7 +13,8 @@
 				"state" : {"type" : "string"},
 				"country" : {"type" : "string"},
 				"postalCode" : {"type" : "string"}
-			}
+			},
+			"required" : ["street", "city", "country"]
 		},
 		"telephone" : {
 			"$id" : "#telephone",
@@ -44,7 +45,7 @@
 				"email" : {"type" : "string"}
 				
 			},
-			"required" : ["id", "firstName", "lastName", "birthdate", "hiredate"]
+			"required" : ["id", "firstName", "lastName", "birthdate", "hiredate", "address", "contact"]
 		},
 
 		"Customer" : {
