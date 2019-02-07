@@ -1,0 +1,50 @@
+SELECT * FROM Artist;
+
+SELECT T.TrackId, T.Name, T.Composer, T.Milliseconds, T.Bytes, T.UnitPrice,
+A.Title AS AlbumTitle, M.Name AS MediaTypeName, G.Name AS GenreName
+FROM Track T
+LEFT JOIN (Genre G, MediaType M, Album A)
+ON T.AlbumId = A.AlbumId
+AND T.MediaTypeId = M.MediaTypeId
+AND T.GenreId = G.GenreId;
+
+SELECT I.InvoiceId, I.InvoiceDate, 
+CONCAT(I.BillingAddress, " ", I.BillingCity, " ", COALESCE(I.BillingState, ''), " ", I.BillingCountry, " ", COALESCE(I.BillingPostalCode, '')) AS BillingAddress, 
+I.Total, 
+CONCAT(C.FirstName, " ", C.LastName) AS CustomerName
+FROM Invoice I
+LEFT JOIN Customer C
+ON I.CustomerId = C.CustomerId;
+
+SELECT IL.InvoiceLineId, IL.UnitPrice, IL.Quantity,
+I.InvoiceId, T.Name AS TrackName
+FROM InvoiceLine IL
+LEFT JOIN (Invoice I, Track T)
+ON IL.InvoiceId = I.InvoiceId
+AND IL.TrackId = T.TrackId;
+
+SELECT E1.EmployeeId, CONCAT(E1.FirstName, " ", E1.LastName) AS EmployeeName, E1.Title, E1.BirthDate, E1.HireDate, 
+CONCAT(E1.Address, " ", E1.City, " ", E1.State, " ", E1.Country, " ", E1.PostalCode) AS Address, E1.Phone, E1.Fax, E1.Email,
+CONCAT(E2.FirstName, " ", E2.LastName) AS ReportsToName
+FROM Employee E1
+LEFT JOIN Employee E2
+ON E1.ReportsTo = E2.EmployeeId;
+
+SELECT * FROM MediaType;
+
+SELECT * FROM Playlist;
+
+SELECT * FROM Genre;
+
+SELECT PT.PlaylistId, PT.TrackId,
+P.Name AS PlaylistName, T.Name AS TrackName
+FROM PlaylistTrack PT
+LEFT JOIN (Playlist P, Track T)
+ON PT.PlaylistId = P.PlaylistId
+AND PT.TrackId = T.TrackId;
+
+SELECT Al.AlbumId, Al.Title,
+Ar.Name AS ArtistName
+FROM Album Al
+LEFT JOIN Artist Ar
+ON Al.ArtistId = Ar.ArtistId;

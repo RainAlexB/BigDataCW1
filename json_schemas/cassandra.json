@@ -1,0 +1,173 @@
+{
+	"$schema" : "http://json-schema.org/schema#",
+	"$id" : "http://json-schema.org/schema#",
+	"_comment" : "address and telephone are reused types (see employee, customer and invoice"),
+
+	"definitions" : {
+		"address" : {
+			"$id" : "#address",
+			"type" : "object",
+			"properties" : {
+				"street" : {"type" : "string"},
+				"city" : {"type" : "string"},
+				"state" : {"type" : "string"},
+				"country" : {"type" : "string"},
+				"postalCode" : {"type" : "string"}
+			}
+		},
+		"telephone" : {
+			"$id" : "#telephone",
+			"type" : "object",
+			"properties" : {
+				"telType" : {"type" : "string"},
+				"number" : {"type" : "string"}
+			},
+			"required" : ["telType", "number"]
+		},
+
+		"Employee" : {
+			"$id" : "#employee",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"firstName" : {"type" : "string"},
+				"lastName" : {"type" : "string"},
+				"title" : {"type" : "string"},
+				"reportsTo" : {"$ref" : "#employee"},
+				"birthdate" : {"type" : "string"},
+				"hiredate" : {"type" : "string"},
+				"address" : {"$ref" : "#address"},
+				"contact" : {
+					"type" : "array",
+					"items" : {"$ref" : "#telephone"}
+				},
+				"email" : {"type" : "string"}
+				
+			},
+			"required" : ["id", "firstName", "lastName", "birthdate", "hiredate"]
+		},
+
+		"Customer" : {
+			"$id" : "#customer",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"firstName" : {"type" : "string"},
+				"lastName" : {"type" : "string"},
+				"company" : {"type" : "string"},
+				"address" : {"$ref" : "#address"},
+				"contact" : {
+					"type" : "array",
+					"items" : {"$ref" : "#telephone"}
+				},
+				"email" : {"type" : "string"},
+				"supportRep" : {"$ref" : "#employee"}
+			},
+			"required" : ["id", "firstName", "lastName"]
+		},
+
+		"Invoice" : {
+			"$id" : "#invoice",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"customer" : {"$ref" : "#customer"},
+				"invoiceDate" : {"type" : "string"},
+				"billingAddress" : {"$ref" : "#address"},
+				"total" : {"type" : "number"}
+			},
+			"required" : ["id", "customer", "invoiceDate", "billingAddress", "total"]
+		},
+
+		"InvoiceLine" : {
+			"$id" : "#invoiceline",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"invoice" : {"$ref" : "#invoice"},
+				"track" : {"$ref" : "#track"},
+				"unitPrice" : {"type" : "number"},
+				"quantity" : {"type" : "number"}
+			},
+			"required" : ["id", "invoice", "track", "unitPrice", "quantity"]
+		},
+
+		"Artist" : {
+			"$id" : "#artist",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"name" : {"type" : "string"}
+			},
+			"required" : ["id", "name"]
+		},
+
+		"MediaType" : {
+			"$id" : "#mediatype",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"name" : {"type" : "string"}
+			},
+			"required" : ["id", "name"]
+		},
+
+		"Genre" : {
+			"$id" : "#genre",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"name" : {"type" : "string"}
+			},
+			"required" : ["id", "name"]
+		},
+
+		"Album" : {
+			"$id" : "#album",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"title" : {"type" : "string"},
+				"artist" : {"$ref" : "#artist"}
+			},
+			"required" : ["id", "title", "artist"]
+		},		
+
+		"Track" : {
+			"$id" : "#track",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"name" : {"type" : "string"},
+				"album" : {"$ref" : "#album"},
+				"mediatype" : {"$ref" : "#mediatype"},
+				"genre" : {"$ref" : "#genre"},
+				"composer" : {"type" : "string"},
+				"milliseconds" : {"type" : "number"},
+				"bytes" : {"type" : "number"},
+				"unitprice" : {"type" : "number"}
+			},
+			"required" : ["id", "name", "mediatype", "genre", "milliseconds", "bytes", "unitprice"]
+		},
+
+		"Playlist" : {
+			"$id" : "#playlist",
+			"type" : "object",
+			"properties" : {
+				"id" : {"type" : "number"},
+				"name" : {"type" : "string"}
+			},
+			"required" : ["id", "name"]
+		},
+
+		"PlaylistTrack" : {
+			"$id" : "playlisttrack",
+			"type" : "object",
+			"properties" : {
+				"playlist" : {"$ref" : "#playlist"},
+				"track" : {"$ref" : "track"}
+			},
+			"required" : ["playlist", "track"]
+		}	
+	}
+}

@@ -1,0 +1,413 @@
+InvoiceId	InvoiceDate	BillingAddress	Total	CustomerName
+1	2009-01-01 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	1.98	Leonie Köhler
+2	2009-01-02 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	3.96	Bjørn Hansen
+3	2009-01-03 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	5.94	Daan Peeters
+4	2009-01-06 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	8.91	Mark Philips
+5	2009-01-11 00:00:00	69 Salem Street Boston MA USA 2113	13.86	John Gordon
+6	2009-01-19 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	0.99	Fynn Zimmermann
+7	2009-02-01 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	1.98	Niklas Schröder
+8	2009-02-01 00:00:00	8, Rue Hanovre Paris  France 75002	1.98	Dominique Lefebvre
+9	2009-02-02 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	3.96	Wyatt Girard
+10	2009-02-03 00:00:00	3 Chatham Street Dublin Dublin Ireland 	5.94	Hugh O'Reilly
+11	2009-02-06 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	8.91	Emma Jones
+12	2009-02-11 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	13.86	Leonie Köhler
+13	2009-02-19 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	0.99	Frank Harris
+14	2009-03-04 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	1.98	Jack Smith
+15	2009-03-04 00:00:00	1 Infinite Loop Cupertino CA USA 95014	1.98	Tim Goyer
+16	2009-03-05 00:00:00	801 W 4th Street Reno NV USA 89503	3.96	Kathy Chase
+17	2009-03-06 00:00:00	319 N. Frances Street Madison WI USA 53703	5.94	Victor Stevens
+18	2009-03-09 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	8.91	Martha Silk
+19	2009-03-14 00:00:00	8, Rue Hanovre Paris  France 75002	13.86	Dominique Lefebvre
+20	2009-03-22 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	0.99	Steve Murray
+21	2009-04-04 00:00:00	421 Bourke Street Sidney NSW Australia 2010	1.98	Mark Taylor
+22	2009-04-04 00:00:00	Calle Lira, 198 Santiago  Chile 	1.98	Luis Rojas
+23	2009-04-05 00:00:00	3,Raj Bhavan Road Bangalore  India 560001	3.96	Puja Srivastava
+24	2009-04-06 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	5.94	Bjørn Hansen
+25	2009-04-09 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	8.91	Eduardo Martins
+26	2009-04-14 00:00:00	1 Infinite Loop Cupertino CA USA 95014	13.86	Tim Goyer
+27	2009-04-22 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	0.99	Ellie Sullivan
+28	2009-05-05 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	1.98	João Fernandes
+29	2009-05-05 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	1.98	Hannah Schneider
+30	2009-05-06 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	3.96	Niklas Schröder
+31	2009-05-07 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	5.94	Wyatt Girard
+32	2009-05-10 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	8.91	Johannes Van der Berg
+33	2009-05-15 00:00:00	Calle Lira, 198 Santiago  Chile 	13.86	Luis Rojas
+34	2009-05-23 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	0.99	Roberto Almeida
+35	2009-06-05 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	1.98	Fernanda Ramos
+36	2009-06-05 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	1.98	Jennifer Peterson
+37	2009-06-06 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	3.96	Jack Smith
+38	2009-06-07 00:00:00	801 W 4th Street Reno NV USA 89503	5.94	Kathy Chase
+39	2009-06-10 00:00:00	1033 N Park Ave Tucson AZ USA 85719	8.91	Patrick Gray
+40	2009-06-15 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	13.86	Hannah Schneider
+41	2009-06-23 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	0.99	Enrique Muñoz
+42	2009-07-06 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	1.98	Joakim Johansson
+43	2009-07-06 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	1.98	Phil Hughes
+44	2009-07-07 00:00:00	421 Bourke Street Sidney NSW Australia 2010	3.96	Mark Taylor
+45	2009-07-08 00:00:00	3,Raj Bhavan Road Bangalore  India 560001	5.94	Puja Srivastava
+46	2009-07-11 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	8.91	Helena Holý
+47	2009-07-16 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	13.86	Jennifer Peterson
+48	2009-07-24 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	0.99	Robert Brown
+49	2009-08-06 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	1.98	Edward Francis
+50	2009-08-06 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	1.98	Aaron Mitchell
+51	2009-08-07 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	3.96	João Fernandes
+52	2009-08-08 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	5.94	Niklas Schröder
+53	2009-08-11 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	8.91	Terhi Hämäläinen
+54	2009-08-16 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	13.86	Phil Hughes
+55	2009-08-24 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	0.99	Daan Peeters
+56	2009-09-06 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	1.98	Kara Nielsen
+57	2009-09-06 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	1.98	Alexandre Rocha
+58	2009-09-07 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	3.96	Fernanda Ramos
+59	2009-09-08 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	5.94	Jack Smith
+60	2009-09-11 00:00:00	69 Salem Street Boston MA USA 2113	8.91	John Gordon
+61	2009-09-16 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	13.86	Aaron Mitchell
+62	2009-09-24 00:00:00	3 Chatham Street Dublin Dublin Ireland 	0.99	Hugh O'Reilly
+63	2009-10-07 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	1.98	Lucas Mancini
+64	2009-10-07 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	1.98	Stanisław Wójcik
+65	2009-10-08 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	3.96	Joakim Johansson
+66	2009-10-09 00:00:00	421 Bourke Street Sidney NSW Australia 2010	5.94	Mark Taylor
+67	2009-10-12 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	8.91	Leonie Köhler
+68	2009-10-17 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	13.86	Alexandre Rocha
+69	2009-10-25 00:00:00	319 N. Frances Street Madison WI USA 53703	0.99	Victor Stevens
+70	2009-11-07 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	1.98	Richard Cunningham
+71	2009-11-07 00:00:00	302 S 700 E Salt Lake City UT USA 84102	1.98	Julia Barnett
+72	2009-11-08 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	3.96	Edward Francis
+73	2009-11-09 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	5.94	João Fernandes
+74	2009-11-12 00:00:00	8, Rue Hanovre Paris  France 75002	8.91	Dominique Lefebvre
+75	2009-11-17 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	13.86	Stanisław Wójcik
+76	2009-11-25 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	0.99	Bjørn Hansen
+77	2009-12-08 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	1.98	František Wichterlová
+78	2009-12-08 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	1.98	Astrid Gruber
+79	2009-12-09 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	3.96	Kara Nielsen
+80	2009-12-10 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	5.94	Fernanda Ramos
+81	2009-12-13 00:00:00	1 Infinite Loop Cupertino CA USA 95014	8.91	Tim Goyer
+82	2009-12-18 00:00:00	302 S 700 E Salt Lake City UT USA 84102	13.86	Julia Barnett
+83	2009-12-26 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	0.99	Wyatt Girard
+84	2010-01-08 00:00:00	68, Rue Jouvence Dijon  France 21000	1.98	Isabelle Mercier
+85	2010-01-08 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	1.98	Ladislav Kovács
+86	2010-01-09 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	3.96	Lucas Mancini
+87	2010-01-10 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	6.94	Joakim Johansson
+88	2010-01-13 00:00:00	Calle Lira, 198 Santiago  Chile 	17.91	Luis Rojas
+89	2010-01-18 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	18.86	Astrid Gruber
+90	2010-01-26 00:00:00	801 W 4th Street Reno NV USA 89503	0.99	Kathy Chase
+91	2010-02-08 00:00:00	120 S Orange Ave Orlando FL USA 32801	1.98	Heather Leacock
+92	2010-02-08 00:00:00	162 E Superior Street Chicago IL USA 60611	1.98	Frank Ralston
+93	2010-02-09 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	3.96	Richard Cunningham
+94	2010-02-10 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	5.94	Edward Francis
+95	2010-02-13 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	8.91	Hannah Schneider
+96	2010-02-18 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	21.86	Ladislav Kovács
+97	2010-02-26 00:00:00	3,Raj Bhavan Road Bangalore  India 560001	1.99	Puja Srivastava
+98	2010-03-11 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	3.98	Luís Gonçalves
+99	2010-03-11 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	3.98	François Tremblay
+100	2010-03-12 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	3.96	František Wichterlová
+101	2010-03-13 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	5.94	Kara Nielsen
+102	2010-03-16 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	9.91	Jennifer Peterson
+103	2010-03-21 00:00:00	162 E Superior Street Chicago IL USA 60611	15.86	Frank Ralston
+104	2010-03-29 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	0.99	Niklas Schröder
+105	2010-04-11 00:00:00	4, Rue Milton Paris  France 75009	1.98	Camille Bernard
+106	2010-04-11 00:00:00	11, Place Bellecour Lyon  France 69002	1.98	Marc Dubois
+107	2010-04-12 00:00:00	68, Rue Jouvence Dijon  France 21000	3.96	Isabelle Mercier
+108	2010-04-13 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	5.94	Lucas Mancini
+109	2010-04-16 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	8.91	Phil Hughes
+110	2010-04-21 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	13.86	François Tremblay
+111	2010-04-29 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	0.99	Jack Smith
+112	2010-05-12 00:00:00	627 Broadway New York NY USA 10012-2612	1.98	Michelle Brooks
+113	2010-05-12 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	1.98	Dan Miller
+114	2010-05-13 00:00:00	120 S Orange Ave Orlando FL USA 32801	3.96	Heather Leacock
+115	2010-05-14 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	5.94	Richard Cunningham
+116	2010-05-17 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	8.91	Aaron Mitchell
+117	2010-05-22 00:00:00	11, Place Bellecour Lyon  France 69002	13.86	Marc Dubois
+118	2010-05-30 00:00:00	421 Bourke Street Sidney NSW Australia 2010	0.99	Mark Taylor
+119	2010-06-12 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	1.98	Diego Gutiérrez
+120	2010-06-12 00:00:00	12,Community Centre Delhi  India 110017	1.98	Manoj Pareek
+121	2010-06-13 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	3.96	Luís Gonçalves
+122	2010-06-14 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	5.94	František Wichterlová
+123	2010-06-17 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	8.91	Alexandre Rocha
+124	2010-06-22 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	13.86	Dan Miller
+125	2010-06-30 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	0.99	João Fernandes
+126	2010-07-13 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	1.98	Madalena Sampaio
+127	2010-07-13 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	1.98	Fynn Zimmermann
+128	2010-07-14 00:00:00	4, Rue Milton Paris  France 75009	3.96	Camille Bernard
+129	2010-07-15 00:00:00	68, Rue Jouvence Dijon  France 21000	5.94	Isabelle Mercier
+130	2010-07-18 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	8.91	Stanisław Wójcik
+131	2010-07-23 00:00:00	12,Community Centre Delhi  India 110017	13.86	Manoj Pareek
+132	2010-07-31 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	0.99	Fernanda Ramos
+133	2010-08-13 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	1.98	Mark Philips
+134	2010-08-13 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	1.98	Frank Harris
+135	2010-08-14 00:00:00	627 Broadway New York NY USA 10012-2612	3.96	Michelle Brooks
+136	2010-08-15 00:00:00	120 S Orange Ave Orlando FL USA 32801	5.94	Heather Leacock
+137	2010-08-18 00:00:00	302 S 700 E Salt Lake City UT USA 84102	8.91	Julia Barnett
+138	2010-08-23 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	13.86	Fynn Zimmermann
+139	2010-08-31 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	0.99	Joakim Johansson
+140	2010-09-13 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	1.98	Emma Jones
+141	2010-09-13 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	1.98	Steve Murray
+142	2010-09-14 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	3.96	Diego Gutiérrez
+143	2010-09-15 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	5.94	Luís Gonçalves
+144	2010-09-18 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	8.91	Astrid Gruber
+145	2010-09-23 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	13.86	Frank Harris
+146	2010-10-01 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	0.99	Edward Francis
+147	2010-10-14 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	1.98	Martha Silk
+148	2010-10-14 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	1.98	Ellie Sullivan
+149	2010-10-15 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	3.96	Madalena Sampaio
+150	2010-10-16 00:00:00	4, Rue Milton Paris  France 75009	5.94	Camille Bernard
+151	2010-10-19 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	8.91	Ladislav Kovács
+152	2010-10-24 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	13.86	Steve Murray
+153	2010-11-01 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	0.99	Kara Nielsen
+154	2010-11-14 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	1.98	Eduardo Martins
+155	2010-11-14 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	1.98	Roberto Almeida
+156	2010-11-15 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	3.96	Mark Philips
+157	2010-11-16 00:00:00	627 Broadway New York NY USA 10012-2612	5.94	Michelle Brooks
+158	2010-11-19 00:00:00	162 E Superior Street Chicago IL USA 60611	8.91	Frank Ralston
+159	2010-11-24 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	13.86	Ellie Sullivan
+160	2010-12-02 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	0.99	Lucas Mancini
+161	2010-12-15 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	1.98	Johannes Van der Berg
+162	2010-12-15 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	1.98	Enrique Muñoz
+163	2010-12-16 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	3.96	Emma Jones
+164	2010-12-17 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	5.94	Diego Gutiérrez
+165	2010-12-20 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	8.91	François Tremblay
+166	2010-12-25 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	13.86	Roberto Almeida
+167	2011-01-02 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	0.99	Richard Cunningham
+168	2011-01-15 00:00:00	1033 N Park Ave Tucson AZ USA 85719	1.98	Patrick Gray
+169	2011-01-15 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	1.98	Robert Brown
+170	2011-01-16 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	3.96	Martha Silk
+171	2011-01-17 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	5.94	Madalena Sampaio
+172	2011-01-20 00:00:00	11, Place Bellecour Lyon  France 69002	8.91	Marc Dubois
+173	2011-01-25 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	13.86	Enrique Muñoz
+174	2011-02-02 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	0.99	František Wichterlová
+175	2011-02-15 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	1.98	Helena Holý
+176	2011-02-15 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	1.98	Daan Peeters
+177	2011-02-16 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	3.96	Eduardo Martins
+178	2011-02-17 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	5.94	Mark Philips
+179	2011-02-20 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	8.91	Dan Miller
+180	2011-02-25 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	13.86	Robert Brown
+181	2011-03-05 00:00:00	68, Rue Jouvence Dijon  France 21000	0.99	Isabelle Mercier
+182	2011-03-18 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	1.98	Terhi Hämäläinen
+183	2011-03-18 00:00:00	3 Chatham Street Dublin Dublin Ireland 	1.98	Hugh O'Reilly
+184	2011-03-19 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	3.96	Johannes Van der Berg
+185	2011-03-20 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	5.94	Emma Jones
+186	2011-03-23 00:00:00	12,Community Centre Delhi  India 110017	8.91	Manoj Pareek
+187	2011-03-28 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	13.86	Daan Peeters
+188	2011-04-05 00:00:00	120 S Orange Ave Orlando FL USA 32801	0.99	Heather Leacock
+189	2011-04-18 00:00:00	69 Salem Street Boston MA USA 2113	1.98	John Gordon
+190	2011-04-18 00:00:00	319 N. Frances Street Madison WI USA 53703	1.98	Victor Stevens
+191	2011-04-19 00:00:00	1033 N Park Ave Tucson AZ USA 85719	3.96	Patrick Gray
+192	2011-04-20 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	5.94	Martha Silk
+193	2011-04-23 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	14.91	Fynn Zimmermann
+194	2011-04-28 00:00:00	3 Chatham Street Dublin Dublin Ireland 	21.86	Hugh O'Reilly
+195	2011-05-06 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	0.99	Luís Gonçalves
+196	2011-05-19 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	1.98	Leonie Köhler
+197	2011-05-19 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	1.98	Bjørn Hansen
+198	2011-05-20 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	3.96	Helena Holý
+199	2011-05-21 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	5.94	Eduardo Martins
+200	2011-05-24 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	8.91	Frank Harris
+201	2011-05-29 00:00:00	319 N. Frances Street Madison WI USA 53703	18.86	Victor Stevens
+202	2011-06-06 00:00:00	4, Rue Milton Paris  France 75009	1.99	Camille Bernard
+203	2011-06-19 00:00:00	8, Rue Hanovre Paris  France 75002	2.98	Dominique Lefebvre
+204	2011-06-19 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	3.98	Wyatt Girard
+205	2011-06-20 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	7.96	Terhi Hämäläinen
+206	2011-06-21 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	8.94	Johannes Van der Berg
+207	2011-06-24 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	8.91	Steve Murray
+208	2011-06-29 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	15.86	Bjørn Hansen
+209	2011-07-07 00:00:00	627 Broadway New York NY USA 10012-2612	0.99	Michelle Brooks
+210	2011-07-20 00:00:00	1 Infinite Loop Cupertino CA USA 95014	1.98	Tim Goyer
+211	2011-07-20 00:00:00	801 W 4th Street Reno NV USA 89503	1.98	Kathy Chase
+212	2011-07-21 00:00:00	69 Salem Street Boston MA USA 2113	3.96	John Gordon
+213	2011-07-22 00:00:00	1033 N Park Ave Tucson AZ USA 85719	5.94	Patrick Gray
+214	2011-07-25 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	8.91	Ellie Sullivan
+215	2011-07-30 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	13.86	Wyatt Girard
+216	2011-08-07 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	0.99	Diego Gutiérrez
+217	2011-08-20 00:00:00	Calle Lira, 198 Santiago  Chile 	1.98	Luis Rojas
+218	2011-08-20 00:00:00	3,Raj Bhavan Road Bangalore  India 560001	1.98	Puja Srivastava
+219	2011-08-21 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	3.96	Leonie Köhler
+220	2011-08-22 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	5.94	Helena Holý
+221	2011-08-25 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	8.91	Roberto Almeida
+222	2011-08-30 00:00:00	801 W 4th Street Reno NV USA 89503	13.86	Kathy Chase
+223	2011-09-07 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	0.99	Madalena Sampaio
+224	2011-09-20 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	1.98	Hannah Schneider
+225	2011-09-20 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	1.98	Niklas Schröder
+226	2011-09-21 00:00:00	8, Rue Hanovre Paris  France 75002	3.96	Dominique Lefebvre
+227	2011-09-22 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	5.94	Terhi Hämäläinen
+228	2011-09-25 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	8.91	Enrique Muñoz
+229	2011-09-30 00:00:00	3,Raj Bhavan Road Bangalore  India 560001	13.86	Puja Srivastava
+230	2011-10-08 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	0.99	Mark Philips
+231	2011-10-21 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	1.98	Jennifer Peterson
+232	2011-10-21 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	1.98	Jack Smith
+233	2011-10-22 00:00:00	1 Infinite Loop Cupertino CA USA 95014	3.96	Tim Goyer
+234	2011-10-23 00:00:00	69 Salem Street Boston MA USA 2113	5.94	John Gordon
+235	2011-10-26 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	8.91	Robert Brown
+236	2011-10-31 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	13.86	Niklas Schröder
+237	2011-11-08 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	0.99	Emma Jones
+238	2011-11-21 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	1.98	Phil Hughes
+239	2011-11-21 00:00:00	421 Bourke Street Sidney NSW Australia 2010	1.98	Mark Taylor
+240	2011-11-22 00:00:00	Calle Lira, 198 Santiago  Chile 	3.96	Luis Rojas
+241	2011-11-23 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	5.94	Leonie Köhler
+242	2011-11-26 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	8.91	Daan Peeters
+243	2011-12-01 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	13.86	Jack Smith
+244	2011-12-09 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	0.99	Martha Silk
+245	2011-12-22 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	1.98	Aaron Mitchell
+246	2011-12-22 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	1.98	João Fernandes
+247	2011-12-23 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	3.96	Hannah Schneider
+248	2011-12-24 00:00:00	8, Rue Hanovre Paris  France 75002	5.94	Dominique Lefebvre
+249	2011-12-27 00:00:00	3 Chatham Street Dublin Dublin Ireland 	8.91	Hugh O'Reilly
+250	2012-01-01 00:00:00	421 Bourke Street Sidney NSW Australia 2010	13.86	Mark Taylor
+251	2012-01-09 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	0.99	Eduardo Martins
+252	2012-01-22 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	1.98	Alexandre Rocha
+253	2012-01-22 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	1.98	Fernanda Ramos
+254	2012-01-23 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	3.96	Jennifer Peterson
+255	2012-01-24 00:00:00	1 Infinite Loop Cupertino CA USA 95014	5.94	Tim Goyer
+256	2012-01-27 00:00:00	319 N. Frances Street Madison WI USA 53703	8.91	Victor Stevens
+257	2012-02-01 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	13.86	João Fernandes
+258	2012-02-09 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	0.99	Johannes Van der Berg
+259	2012-02-22 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	1.98	Stanisław Wójcik
+260	2012-02-22 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	1.98	Joakim Johansson
+261	2012-02-23 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	3.96	Phil Hughes
+262	2012-02-24 00:00:00	Calle Lira, 198 Santiago  Chile 	5.94	Luis Rojas
+263	2012-02-27 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	8.91	Bjørn Hansen
+264	2012-03-03 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	13.86	Fernanda Ramos
+265	2012-03-11 00:00:00	1033 N Park Ave Tucson AZ USA 85719	0.99	Patrick Gray
+266	2012-03-24 00:00:00	302 S 700 E Salt Lake City UT USA 84102	1.98	Julia Barnett
+267	2012-03-24 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	1.98	Edward Francis
+268	2012-03-25 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	3.96	Aaron Mitchell
+269	2012-03-26 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	5.94	Hannah Schneider
+270	2012-03-29 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	8.91	Wyatt Girard
+271	2012-04-03 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	13.86	Joakim Johansson
+272	2012-04-11 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	0.99	Helena Holý
+273	2012-04-24 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	1.98	Astrid Gruber
+274	2012-04-24 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	1.98	Kara Nielsen
+275	2012-04-25 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	3.96	Alexandre Rocha
+276	2012-04-26 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	5.94	Jennifer Peterson
+277	2012-04-29 00:00:00	801 W 4th Street Reno NV USA 89503	8.91	Kathy Chase
+278	2012-05-04 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	13.86	Edward Francis
+279	2012-05-12 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	0.99	Terhi Hämäläinen
+280	2012-05-25 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	1.98	Ladislav Kovács
+281	2012-05-25 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	1.98	Lucas Mancini
+282	2012-05-26 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	3.96	Stanisław Wójcik
+283	2012-05-27 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	5.94	Phil Hughes
+284	2012-05-30 00:00:00	3,Raj Bhavan Road Bangalore  India 560001	8.91	Puja Srivastava
+285	2012-06-04 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	13.86	Kara Nielsen
+286	2012-06-12 00:00:00	69 Salem Street Boston MA USA 2113	0.99	John Gordon
+287	2012-06-25 00:00:00	162 E Superior Street Chicago IL USA 60611	1.98	Frank Ralston
+288	2012-06-25 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	1.98	Richard Cunningham
+289	2012-06-26 00:00:00	302 S 700 E Salt Lake City UT USA 84102	3.96	Julia Barnett
+290	2012-06-27 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	5.94	Aaron Mitchell
+291	2012-06-30 00:00:00	Barbarossastraße 19 Berlin  Germany 10779	8.91	Niklas Schröder
+292	2012-07-05 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	13.86	Lucas Mancini
+293	2012-07-13 00:00:00	Theodor-Heuss-Straße 34 Stuttgart  Germany 70174	0.99	Leonie Köhler
+294	2012-07-26 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	1.98	François Tremblay
+295	2012-07-26 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	1.98	František Wichterlová
+296	2012-07-27 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	3.96	Astrid Gruber
+297	2012-07-28 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	5.94	Alexandre Rocha
+298	2012-07-31 00:00:00	1 Microsoft Way Redmond WA USA 98052-8300	10.91	Jack Smith
+299	2012-08-05 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	23.86	Richard Cunningham
+300	2012-08-13 00:00:00	8, Rue Hanovre Paris  France 75002	0.99	Dominique Lefebvre
+301	2012-08-26 00:00:00	11, Place Bellecour Lyon  France 69002	1.98	Marc Dubois
+302	2012-08-26 00:00:00	68, Rue Jouvence Dijon  France 21000	1.98	Isabelle Mercier
+303	2012-08-27 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	3.96	Ladislav Kovács
+304	2012-08-28 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	5.94	Stanisław Wójcik
+305	2012-08-31 00:00:00	421 Bourke Street Sidney NSW Australia 2010	8.91	Mark Taylor
+306	2012-09-05 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	16.86	František Wichterlová
+307	2012-09-13 00:00:00	1 Infinite Loop Cupertino CA USA 95014	1.99	Tim Goyer
+308	2012-09-26 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	3.98	Dan Miller
+309	2012-09-26 00:00:00	120 S Orange Ave Orlando FL USA 32801	3.98	Heather Leacock
+310	2012-09-27 00:00:00	162 E Superior Street Chicago IL USA 60611	7.96	Frank Ralston
+311	2012-09-28 00:00:00	302 S 700 E Salt Lake City UT USA 84102	11.94	Julia Barnett
+312	2012-10-01 00:00:00	Rua da Assunção 53 Lisbon  Portugal 	10.91	João Fernandes
+313	2012-10-06 00:00:00	68, Rue Jouvence Dijon  France 21000	16.86	Isabelle Mercier
+314	2012-10-14 00:00:00	Calle Lira, 198 Santiago  Chile 	0.99	Luis Rojas
+315	2012-10-27 00:00:00	12,Community Centre Delhi  India 110017	1.98	Manoj Pareek
+316	2012-10-27 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	1.98	Luís Gonçalves
+317	2012-10-28 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	3.96	François Tremblay
+318	2012-10-29 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	5.94	Astrid Gruber
+319	2012-11-01 00:00:00	Qe 7 Bloco G Brasília DF Brazil 71020-677	8.91	Fernanda Ramos
+320	2012-11-06 00:00:00	120 S Orange Ave Orlando FL USA 32801	13.86	Heather Leacock
+321	2012-11-14 00:00:00	Tauentzienstraße 8 Berlin  Germany 10789	0.99	Hannah Schneider
+322	2012-11-27 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	1.98	Fynn Zimmermann
+323	2012-11-27 00:00:00	4, Rue Milton Paris  France 75009	1.98	Camille Bernard
+324	2012-11-28 00:00:00	11, Place Bellecour Lyon  France 69002	3.96	Marc Dubois
+325	2012-11-29 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	5.94	Ladislav Kovács
+326	2012-12-02 00:00:00	Celsiusg. 9 Stockholm  Sweden 11230	8.91	Joakim Johansson
+327	2012-12-07 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	13.86	Luís Gonçalves
+328	2012-12-15 00:00:00	700 W Pender Street Vancouver BC Canada V6C 1G8	0.99	Jennifer Peterson
+329	2012-12-28 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	1.98	Frank Harris
+330	2012-12-28 00:00:00	627 Broadway New York NY USA 10012-2612	1.98	Michelle Brooks
+331	2012-12-29 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	3.96	Dan Miller
+332	2012-12-30 00:00:00	162 E Superior Street Chicago IL USA 60611	5.94	Frank Ralston
+333	2013-01-02 00:00:00	230 Elgin Street Ottawa ON Canada K2P 1L7	8.91	Edward Francis
+334	2013-01-07 00:00:00	4, Rue Milton Paris  France 75009	13.86	Camille Bernard
+335	2013-01-15 00:00:00	113 Lupus St London  United Kingdom SW1V 3EN	0.99	Phil Hughes
+336	2013-01-28 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	1.98	Steve Murray
+337	2013-01-28 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	1.98	Diego Gutiérrez
+338	2013-01-29 00:00:00	12,Community Centre Delhi  India 110017	3.96	Manoj Pareek
+339	2013-01-30 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	5.94	François Tremblay
+340	2013-02-02 00:00:00	Sønder Boulevard 51 Copenhagen  Denmark 1720	8.91	Kara Nielsen
+341	2013-02-07 00:00:00	627 Broadway New York NY USA 10012-2612	13.86	Michelle Brooks
+342	2013-02-15 00:00:00	696 Osborne Street Winnipeg MB Canada R3L 2B9	0.99	Aaron Mitchell
+343	2013-02-28 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	1.98	Ellie Sullivan
+344	2013-02-28 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	1.98	Madalena Sampaio
+345	2013-03-01 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	3.96	Fynn Zimmermann
+346	2013-03-02 00:00:00	11, Place Bellecour Lyon  France 69002	5.94	Marc Dubois
+347	2013-03-05 00:00:00	Via Degli Scipioni, 43 Rome RM Italy 00192	8.91	Lucas Mancini
+348	2013-03-10 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	13.86	Diego Gutiérrez
+349	2013-03-18 00:00:00	Av. Paulista, 2022 São Paulo SP Brazil 01310-200	0.99	Alexandre Rocha
+350	2013-03-31 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	1.98	Roberto Almeida
+351	2013-03-31 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	1.98	Mark Philips
+352	2013-04-01 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	3.96	Frank Harris
+353	2013-04-02 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	5.94	Dan Miller
+354	2013-04-05 00:00:00	2211 W Berry Street Fort Worth TX USA 76110	8.91	Richard Cunningham
+355	2013-04-10 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	13.86	Madalena Sampaio
+356	2013-04-18 00:00:00	Ordynacka 10 Warsaw  Poland 00-358	0.99	Stanisław Wójcik
+357	2013-05-01 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	1.98	Enrique Muñoz
+358	2013-05-01 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	1.98	Emma Jones
+359	2013-05-02 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	3.96	Steve Murray
+360	2013-05-03 00:00:00	12,Community Centre Delhi  India 110017	5.94	Manoj Pareek
+361	2013-05-06 00:00:00	Klanova 9/506 Prague  Czech Republic 14700	8.91	František Wichterlová
+362	2013-05-11 00:00:00	8210 111 ST NW Edmonton AB Canada T6G 2C7	13.86	Mark Philips
+363	2013-05-19 00:00:00	302 S 700 E Salt Lake City UT USA 84102	0.99	Julia Barnett
+364	2013-06-01 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	1.98	Robert Brown
+365	2013-06-01 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	1.98	Martha Silk
+366	2013-06-02 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	3.96	Ellie Sullivan
+367	2013-06-03 00:00:00	Berger Straße 10 Frankfurt  Germany 60316	5.94	Fynn Zimmermann
+368	2013-06-06 00:00:00	68, Rue Jouvence Dijon  France 21000	8.91	Isabelle Mercier
+369	2013-06-11 00:00:00	202 Hoxton Street London  United Kingdom N1 5LH	13.86	Emma Jones
+370	2013-06-19 00:00:00	Rotenturmstraße 4, 1010 Innere Stadt Vienne  Austria 1010	0.99	Astrid Gruber
+371	2013-07-02 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	1.98	Daan Peeters
+372	2013-07-02 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	1.98	Eduardo Martins
+373	2013-07-03 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	3.96	Roberto Almeida
+374	2013-07-04 00:00:00	1600 Amphitheatre Parkway Mountain View CA USA 94043-1351	5.94	Frank Harris
+375	2013-07-07 00:00:00	120 S Orange Ave Orlando FL USA 32801	8.91	Heather Leacock
+376	2013-07-12 00:00:00	194A Chain Lake Drive Halifax NS Canada B3S 1C5	13.86	Martha Silk
+377	2013-07-20 00:00:00	Erzsébet krt. 58. Budapest  Hungary H-1073	0.99	Ladislav Kovács
+378	2013-08-02 00:00:00	3 Chatham Street Dublin Dublin Ireland 	1.98	Hugh O'Reilly
+379	2013-08-02 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	1.98	Johannes Van der Berg
+380	2013-08-03 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	3.96	Enrique Muñoz
+381	2013-08-04 00:00:00	110 Raeburn Pl Edinburgh   United Kingdom EH4 1HH	5.94	Steve Murray
+382	2013-08-07 00:00:00	Av. Brigadeiro Faria Lima, 2170 São José dos Campos SP Brazil 12227-000	8.91	Luís Gonçalves
+383	2013-08-12 00:00:00	Rua Dr. Falcão Filho, 155 São Paulo SP Brazil 01007-010	13.86	Eduardo Martins
+384	2013-08-20 00:00:00	162 E Superior Street Chicago IL USA 60611	0.99	Frank Ralston
+385	2013-09-02 00:00:00	319 N. Frances Street Madison WI USA 53703	1.98	Victor Stevens
+386	2013-09-02 00:00:00	1033 N Park Ave Tucson AZ USA 85719	1.98	Patrick Gray
+387	2013-09-03 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	3.96	Robert Brown
+388	2013-09-04 00:00:00	5112 48 Street Yellowknife NT Canada X1A 1N6	5.94	Ellie Sullivan
+389	2013-09-07 00:00:00	4, Rue Milton Paris  France 75009	8.91	Camille Bernard
+390	2013-09-12 00:00:00	Lijnbaansgracht 120bg Amsterdam VV Netherlands 1016	13.86	Johannes Van der Berg
+391	2013-09-20 00:00:00	1498 rue Bélanger Montréal QC Canada H2G 1A7	0.99	François Tremblay
+392	2013-10-03 00:00:00	Ullevålsveien 14 Oslo  Norway 0171	1.98	Bjørn Hansen
+393	2013-10-03 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	1.98	Helena Holý
+394	2013-10-04 00:00:00	Grétrystraat 63 Brussels  Belgium 1000	3.96	Daan Peeters
+395	2013-10-05 00:00:00	Praça Pio X, 119 Rio de Janeiro RJ Brazil 20040-020	5.94	Roberto Almeida
+396	2013-10-08 00:00:00	627 Broadway New York NY USA 10012-2612	8.91	Michelle Brooks
+397	2013-10-13 00:00:00	1033 N Park Ave Tucson AZ USA 85719	13.86	Patrick Gray
+398	2013-10-21 00:00:00	11, Place Bellecour Lyon  France 69002	0.99	Marc Dubois
+399	2013-11-03 00:00:00	9, Place Louis Barthou Bordeaux  France 33000	1.98	Wyatt Girard
+400	2013-11-03 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	1.98	Terhi Hämäläinen
+401	2013-11-04 00:00:00	3 Chatham Street Dublin Dublin Ireland 	3.96	Hugh O'Reilly
+402	2013-11-05 00:00:00	C/ San Bernardo 85 Madrid  Spain 28015	5.94	Enrique Muñoz
+403	2013-11-08 00:00:00	307 Macacha Güemes Buenos Aires  Argentina 1106	8.91	Diego Gutiérrez
+404	2013-11-13 00:00:00	Rilská 3174/6 Prague  Czech Republic 14300	25.86	Helena Holý
+405	2013-11-21 00:00:00	541 Del Medio Avenue Mountain View CA USA 94040-111	0.99	Dan Miller
+406	2013-12-04 00:00:00	801 W 4th Street Reno NV USA 89503	1.98	Kathy Chase
+407	2013-12-04 00:00:00	69 Salem Street Boston MA USA 2113	1.98	John Gordon
+408	2013-12-05 00:00:00	319 N. Frances Street Madison WI USA 53703	3.96	Victor Stevens
+409	2013-12-06 00:00:00	796 Dundas Street West Toronto ON Canada M6J 1V1	5.94	Robert Brown
+410	2013-12-09 00:00:00	Rua dos Campeões Europeus de Viena, 4350 Porto  Portugal 	8.91	Madalena Sampaio
+411	2013-12-14 00:00:00	Porthaninkatu 9 Helsinki  Finland 00530	13.86	Terhi Hämäläinen
+412	2013-12-22 00:00:00	12,Community Centre Delhi  India 110017	1.99	Manoj Pareek
