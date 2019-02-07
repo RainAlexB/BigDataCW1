@@ -93,7 +93,7 @@
 				"title": { "type": "string" },
 				"artist": { "$ref": "#artist" }
 			},
-			"required": [ "id", "title" "artist" ]
+			"required": [ "id", "title", "artist" ]
 		},
 
 		"Playlist" : {
