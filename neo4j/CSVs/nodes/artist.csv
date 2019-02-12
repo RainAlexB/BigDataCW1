@@ -1,0 +1,276 @@
+artistId:ID,name,:LABEL
+artist1,"AC/DC",Artist
+artist2,"Accept",Artist
+artist3,"Aerosmith",Artist
+artist4,"Alanis Morissette",Artist
+artist5,"Alice In Chains",Artist
+artist6,"Antônio Carlos Jobim",Artist
+artist7,"Apocalyptica",Artist
+artist8,"Audioslave",Artist
+artist9,"BackBeat",Artist
+artist10,"Billy Cobham",Artist
+artist11,"Black Label Society",Artist
+artist12,"Black Sabbath",Artist
+artist13,"Body Count",Artist
+artist14,"Bruce Dickinson",Artist
+artist15,"Buddy Guy",Artist
+artist16,"Caetano Veloso",Artist
+artist17,"Chico Buarque",Artist
+artist18,"Chico Science & Nação Zumbi",Artist
+artist19,"Cidade Negra",Artist
+artist20,"Cláudio Zoli",Artist
+artist21,"Various Artists",Artist
+artist22,"Led Zeppelin",Artist
+artist23,"Frank Zappa & Captain Beefheart",Artist
+artist24,"Marcos Valle",Artist
+artist25,"Milton Nascimento & Bebeto",Artist
+artist26,"Azymuth",Artist
+artist27,"Gilberto Gil",Artist
+artist28,"João Gilberto",Artist
+artist29,"Bebel Gilberto",Artist
+artist30,"Jorge Vercilo",Artist
+artist31,"Baby Consuelo",Artist
+artist32,"Ney Matogrosso",Artist
+artist33,"Luiz Melodia",Artist
+artist34,"Nando Reis",Artist
+artist35,"Pedro Luís & A Parede",Artist
+artist36,"O Rappa",Artist
+artist37,"Ed Motta",Artist
+artist38,"Banda Black Rio",Artist
+artist39,"Fernanda Porto",Artist
+artist40,"Os Cariocas",Artist
+artist41,"Elis Regina",Artist
+artist42,"Milton Nascimento",Artist
+artist43,"A Cor Do Som",Artist
+artist44,"Kid Abelha",Artist
+artist45,"Sandra De Sá",Artist
+artist46,"Jorge Ben",Artist
+artist47,"Hermeto Pascoal",Artist
+artist48,"Barão Vermelho",Artist
+artist49,"Edson; DJ Marky & DJ Patife Featuring Fernanda Porto",Artist
+artist50,"Metallica",Artist
+artist51,"Queen",Artist
+artist52,"Kiss",Artist
+artist53,"Spyro Gyra",Artist
+artist54,"Green Day",Artist
+artist55,"David Coverdale",Artist
+artist56,"Gonzaguinha",Artist
+artist57,"Os Mutantes",Artist
+artist58,"Deep Purple",Artist
+artist59,"Santana",Artist
+artist60,"Santana Feat. Dave Matthews",Artist
+artist61,"Santana Feat. Everlast",Artist
+artist62,"Santana Feat. Rob Thomas",Artist
+artist63,"Santana Feat. Lauryn Hill & Cee-Lo",Artist
+artist64,"Santana Feat. The Project G&B",Artist
+artist65,"Santana Feat. Maná",Artist
+artist66,"Santana Feat. Eagle-Eye Cherry",Artist
+artist67,"Santana Feat. Eric Clapton",Artist
+artist68,"Miles Davis",Artist
+artist69,"Gene Krupa",Artist
+artist70,"Toquinho & Vinícius",Artist
+artist71,"Vinícius De Moraes & Baden Powell",Artist
+artist72,"Vinícius De Moraes",Artist
+artist73,"Vinícius E Qurteto Em Cy",Artist
+artist74,"Vinícius E Odette Lara",Artist
+artist75,"Vinicius; Toquinho & Quarteto Em Cy",Artist
+artist76,"Creedence Clearwater Revival",Artist
+artist77,"Cássia Eller",Artist
+artist78,"Def Leppard",Artist
+artist79,"Dennis Chambers",Artist
+artist80,"Djavan",Artist
+artist81,"Eric Clapton",Artist
+artist82,"Faith No More",Artist
+artist83,"Falamansa",Artist
+artist84,"Foo Fighters",Artist
+artist85,"Frank Sinatra",Artist
+artist86,"Funk Como Le Gusta",Artist
+artist87,"Godsmack",Artist
+artist88,"Guns N' Roses",Artist
+artist89,"Incognito",Artist
+artist90,"Iron Maiden",Artist
+artist91,"James Brown",Artist
+artist92,"Jamiroquai",Artist
+artist93,"JET",Artist
+artist94,"Jimi Hendrix",Artist
+artist95,"Joe Satriani",Artist
+artist96,"Jota Quest",Artist
+artist97,"João Suplicy",Artist
+artist98,"Judas Priest",Artist
+artist99,"Legião Urbana",Artist
+artist100,"Lenny Kravitz",Artist
+artist101,"Lulu Santos",Artist
+artist102,"Marillion",Artist
+artist103,"Marisa Monte",Artist
+artist104,"Marvin Gaye",Artist
+artist105,"Men At Work",Artist
+artist106,"Motörhead",Artist
+artist107,"Motörhead & Girlschool",Artist
+artist108,"Mônica Marianno",Artist
+artist109,"Mötley Crüe",Artist
+artist110,"Nirvana",Artist
+artist111,"O Terço",Artist
+artist112,"Olodum",Artist
+artist113,"Os Paralamas Do Sucesso",Artist
+artist114,"Ozzy Osbourne",Artist
+artist115,"Page & Plant",Artist
+artist116,"Passengers",Artist
+artist117,"Paul D'Ianno",Artist
+artist118,"Pearl Jam",Artist
+artist119,"Peter Tosh",Artist
+artist120,"Pink Floyd",Artist
+artist121,"Planet Hemp",Artist
+artist122,"R.E.M. Feat. Kate Pearson",Artist
+artist123,"R.E.M. Feat. KRS-One",Artist
+artist124,"R.E.M.",Artist
+artist125,"Raimundos",Artist
+artist126,"Raul Seixas",Artist
+artist127,"Red Hot Chili Peppers",Artist
+artist128,"Rush",Artist
+artist129,"Simply Red",Artist
+artist130,"Skank",Artist
+artist131,"Smashing Pumpkins",Artist
+artist132,"Soundgarden",Artist
+artist133,"Stevie Ray Vaughan & Double Trouble",Artist
+artist134,"Stone Temple Pilots",Artist
+artist135,"System Of A Down",Artist
+artist136,"Terry Bozzio; Tony Levin & Steve Stevens",Artist
+artist137,"The Black Crowes",Artist
+artist138,"The Clash",Artist
+artist139,"The Cult",Artist
+artist140,"The Doors",Artist
+artist141,"The Police",Artist
+artist142,"The Rolling Stones",Artist
+artist143,"The Tea Party",Artist
+artist144,"The Who",Artist
+artist145,"Tim Maia",Artist
+artist146,"Titãs",Artist
+artist147,"Battlestar Galactica",Artist
+artist148,"Heroes",Artist
+artist149,"Lost",Artist
+artist150,"U2",Artist
+artist151,"UB40",Artist
+artist152,"Van Halen",Artist
+artist153,"Velvet Revolver",Artist
+artist154,"Whitesnake",Artist
+artist155,"Zeca Pagodinho",Artist
+artist156,"The Office",Artist
+artist157,"Dread Zeppelin",Artist
+artist158,"Battlestar Galactica (Classic)",Artist
+artist159,"Aquaman",Artist
+artist160,"Christina Aguilera featuring BigElf",Artist
+artist161,"Aerosmith & Sierra Leone's Refugee Allstars",Artist
+artist162,"Los Lonely Boys",Artist
+artist163,"Corinne Bailey Rae",Artist
+artist164,"Dhani Harrison & Jakob Dylan",Artist
+artist165,"Jackson Browne",Artist
+artist166,"Avril Lavigne",Artist
+artist167,"Big & Rich",Artist
+artist168,"Youssou N'Dour",Artist
+artist169,"Black Eyed Peas",Artist
+artist170,"Jack Johnson",Artist
+artist171,"Ben Harper",Artist
+artist172,"Snow Patrol",Artist
+artist173,"Matisyahu",Artist
+artist174,"The Postal Service",Artist
+artist175,"Jaguares",Artist
+artist176,"The Flaming Lips",Artist
+artist177,"Jack's Mannequin & Mick Fleetwood",Artist
+artist178,"Regina Spektor",Artist
+artist179,"Scorpions",Artist
+artist180,"House Of Pain",Artist
+artist181,"Xis",Artist
+artist182,"Nega Gizza",Artist
+artist183,"Gustavo & Andres Veiga & Salazar",Artist
+artist184,"Rodox",Artist
+artist185,"Charlie Brown Jr.",Artist
+artist186,"Pedro Luís E A Parede",Artist
+artist187,"Los Hermanos",Artist
+artist188,"Mundo Livre S/A",Artist
+artist189,"Otto",Artist
+artist190,"Instituto",Artist
+artist191,"Nação Zumbi",Artist
+artist192,"DJ Dolores & Orchestra Santa Massa",Artist
+artist193,"Seu Jorge",Artist
+artist194,"Sabotage E Instituto",Artist
+artist195,"Stereo Maracana",Artist
+artist196,"Cake",Artist
+artist197,"Aisha Duo",Artist
+artist198,"Habib Koité and Bamada",Artist
+artist199,"Karsh Kale",Artist
+artist200,"The Posies",Artist
+artist201,"Luciana Souza/Romero Lubambo",Artist
+artist202,"Aaron Goldberg",Artist
+artist203,"Nicolaus Esterhazy Sinfonia",Artist
+artist204,"Temple of the Dog",Artist
+artist205,"Chris Cornell",Artist
+artist206,"Alberto Turco & Nova Schola Gregoriana",Artist
+artist207,"Richard Marlow & The Choir of Trinity College; Cambridge",Artist
+artist208,"English Concert & Trevor Pinnock",Artist
+artist209,"Anne-Sophie Mutter; Herbert Von Karajan & Wiener Philharmoniker",Artist
+artist210,"Hilary Hahn; Jeffrey Kahane; Los Angeles Chamber Orchestra & Margaret Batjer",Artist
+artist211,"Wilhelm Kempff",Artist
+artist212,"Yo-Yo Ma",Artist
+artist213,"Scholars Baroque Ensemble",Artist
+artist214,"Academy of St. Martin in the Fields & Sir Neville Marriner",Artist
+artist215,"Academy of St. Martin in the Fields Chamber Ensemble & Sir Neville Marriner",Artist
+artist216,"Berliner Philharmoniker; Claudio Abbado & Sabine Meyer",Artist
+artist217,"Royal Philharmonic Orchestra & Sir Thomas Beecham",Artist
+artist218,"Orchestre Révolutionnaire et Romantique & John Eliot Gardiner",Artist
+artist219,"Britten Sinfonia; Ivor Bolton & Lesley Garrett",Artist
+artist220,"Chicago Symphony Chorus; Chicago Symphony Orchestra & Sir Georg Solti",Artist
+artist221,"Sir Georg Solti & Wiener Philharmoniker",Artist
+artist222,"Academy of St. Martin in the Fields; John Birch; Sir Neville Marriner & Sylvia McNair",Artist
+artist223,"London Symphony Orchestra & Sir Charles Mackerras",Artist
+artist224,"Barry Wordsworth & BBC Concert Orchestra",Artist
+artist225,"Herbert Von Karajan; Mirella Freni & Wiener Philharmoniker",Artist
+artist226,"Eugene Ormandy",Artist
+artist227,"Luciano Pavarotti",Artist
+artist228,"Leonard Bernstein & New York Philharmonic",Artist
+artist229,"Boston Symphony Orchestra & Seiji Ozawa",Artist
+artist230,"Aaron Copland & London Symphony Orchestra",Artist
+artist231,"Ton Koopman",Artist
+artist232,"Sergei Prokofiev & Yuri Temirkanov",Artist
+artist233,"Chicago Symphony Orchestra & Fritz Reiner",Artist
+artist234,"Orchestra of The Age of Enlightenment",Artist
+artist235,"Emanuel Ax; Eugene Ormandy & Philadelphia Orchestra",Artist
+artist236,"James Levine",Artist
+artist237,"Berliner Philharmoniker & Hans Rosbaud",Artist
+artist238,"Maurizio Pollini",Artist
+artist239,"Academy of St. Martin in the Fields; Sir Neville Marriner & William Bennett",Artist
+artist240,"Gustav Mahler",Artist
+artist241,"Felix Schmidt; London Symphony Orchestra & Rafael Frühbeck de Burgos",Artist
+artist242,"Edo de Waart & San Francisco Symphony",Artist
+artist243,"Antal Doráti & London Symphony Orchestra",Artist
+artist244,"Choir Of Westminster Abbey & Simon Preston",Artist
+artist245,"Michael Tilson Thomas & San Francisco Symphony",Artist
+artist246,"Chor der Wiener Staatsoper; Herbert Von Karajan & Wiener Philharmoniker",Artist
+artist247,"The King's Singers",Artist
+artist248,"Berliner Philharmoniker & Herbert Von Karajan",Artist
+artist249,"Sir Georg Solti; Sumi Jo & Wiener Philharmoniker",Artist
+artist250,"Christopher O'Riley",Artist
+artist251,"Fretwork",Artist
+artist252,"Amy Winehouse",Artist
+artist253,"Calexico",Artist
+artist254,"Otto Klemperer & Philharmonia Orchestra",Artist
+artist255,"Yehudi Menuhin",Artist
+artist256,"Philharmonia Orchestra & Sir Neville Marriner",Artist
+artist257,"Academy of St. Martin in the Fields; Sir Neville Marriner & Thurston Dart",Artist
+artist258,"Les Arts Florissants & William Christie",Artist
+artist259,"The 12 Cellists of The Berlin Philharmonic",Artist
+artist260,"Adrian Leaper & Doreen de Feis",Artist
+artist261,"Roger Norrington; London Classical Players",Artist
+artist262,"Charles Dutoit & L'Orchestre Symphonique de Montréal",Artist
+artist263,"Equale Brass Ensemble; John Eliot Gardiner & Munich Monteverdi Orchestra and Choir",Artist
+artist264,"Kent Nagano and Orchestre de l'Opéra de Lyon",Artist
+artist265,"Julian Bream",Artist
+artist266,"Martin Roscoe",Artist
+artist267,"Göteborgs Symfoniker & Neeme Järvi",Artist
+artist268,"Itzhak Perlman",Artist
+artist269,"Michele Campanella",Artist
+artist270,"Gerald Moore",Artist
+artist271,"Mela Tenenbaum; Pro Musica Prague & Richard Kapp",Artist
+artist272,"Emerson String Quartet",Artist
+artist273,"C. Monteverdi; Nigel Rogers - Chiaroscuro; London Baroque; London Cornett & Sackbu",Artist
+artist274,"Nash Ensemble",Artist
+artist275,"Philip Glass Ensemble",Artist

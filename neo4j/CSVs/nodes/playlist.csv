@@ -1,0 +1,19 @@
+playlistId:ID,name,:LABEL
+playlist1,"Music",Playlist
+playlist2,"Movies",Playlist
+playlist3,"TV Shows",Playlist
+playlist4,"Audiobooks",Playlist
+playlist5,"90’s Music",Playlist
+playlist6,"Audiobooks",Playlist
+playlist7,"Movies",Playlist
+playlist8,"Music",Playlist
+playlist9,"Music Videos",Playlist
+playlist10,"TV Shows",Playlist
+playlist11,"Brazilian Music",Playlist
+playlist12,"Classical",Playlist
+playlist13,"Classical 101 - Deep Cuts",Playlist
+playlist14,"Classical 101 - Next Steps",Playlist
+playlist15,"Classical 101 - The Basics",Playlist
+playlist16,"Grunge",Playlist
+playlist17,"Heavy Metal Classic",Playlist
+playlist18,"On-The-Go 1",Playlist

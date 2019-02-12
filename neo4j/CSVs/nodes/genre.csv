@@ -1,0 +1,26 @@
+genreId:ID,name,:LABEL
+genre1,"Rock",Genre
+genre2,"Jazz",Genre
+genre3,"Metal",Genre
+genre4,"Alternative & Punk",Genre
+genre5,"Rock And Roll",Genre
+genre6,"Blues",Genre
+genre7,"Latin",Genre
+genre8,"Reggae",Genre
+genre9,"Pop",Genre
+genre10,"Soundtrack",Genre
+genre11,"Bossa Nova",Genre
+genre12,"Easy Listening",Genre
+genre13,"Heavy Metal",Genre
+genre14,"R&B/Soul",Genre
+genre15,"Electronica/Dance",Genre
+genre16,"World",Genre
+genre17,"Hip Hop/Rap",Genre
+genre18,"Science Fiction",Genre
+genre19,"TV Shows",Genre
+genre20,"Sci Fi & Fantasy",Genre
+genre21,"Drama",Genre
+genre22,"Comedy",Genre
+genre23,"Alternative",Genre
+genre24,"Classical",Genre
+genre25,"Opera",Genre

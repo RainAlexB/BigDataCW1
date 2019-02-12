@@ -1,0 +1,6 @@
+mediaTypeId:ID,name,:LABEL
+mediatype1,"MPEG audio file",MediaType
+mediatype2,"Protected AAC audio file",MediaType
+mediatype3,"Protected MPEG-4 video file",MediaType
+mediatype4,"Purchased AAC audio file",MediaType
+mediatype5,"AAC audio file",MediaType

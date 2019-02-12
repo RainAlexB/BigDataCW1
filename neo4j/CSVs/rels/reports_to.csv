@@ -1,0 +1,8 @@
+:START_ID,:END_ID,:TYPE
+employee2,employee1,REPORTS_TO
+employee6,employee1,REPORTS_TO
+employee3,employee2,REPORTS_TO
+employee4,employee2,REPORTS_TO
+employee5,employee2,REPORTS_TO
+employee7,employee6,REPORTS_TO
+employee8,employee6,REPORTS_TO
