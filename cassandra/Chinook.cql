@@ -109,11 +109,11 @@ CREATE COLUMNFAMILY Track (
 	composer varchar,
 	milliseconds int,
 	bytes int,
-	unitPrice decimal,
 
 	albumTitle varchar,
 	genre varchar,
 	artistName varchar,
+	unitPrice decimal,
 
 	-- CLUSTER COLUMN
 	playlistId int,
