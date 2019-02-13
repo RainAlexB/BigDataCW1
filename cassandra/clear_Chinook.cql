@@ -1,0 +1,13 @@
+USE rb105;
+
+DROP TABLE Employee;
+DROP TABLE Customer;
+DROP TABLE Invoice;
+DROP TABLE Artist;
+DROP TABLE MediaType;
+DROP TABLE Genre;
+DROP TABLE Album;
+DROP TABLE Track;
+DROP TABLE Playlist;
+
+DROP TYPE address;
