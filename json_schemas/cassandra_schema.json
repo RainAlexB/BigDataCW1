@@ -34,7 +34,6 @@
 				"firstName" : {"type" : "string"},
 				"lastName" : {"type" : "string"},
 				"title" : {"type" : "string"},
-				"reportedToByName" : {"type" : "string"},
 				"birthdate" : {"type" : "string"},
 				"hiredate" : {"type" : "string"},
 				"address" : {"$ref" : "#address"},
@@ -44,10 +43,12 @@
 				},
 				"email" : {"type" : "string"},
 
-				"_comment" : "cluster columns",
-				"customerId"  : {"type" : "string"},
-				"customerName" : {"type" : "string"}
-				
+				"reportsToId" : {"type" : "number"},
+				"reportsToLastName" : {"type" : "string"},
+
+				// CLUSTER COLUMNS
+				"customerId"  : {"type" : "number"},
+				"customerLastName" : {"type" : "string"}
 			},
 			"required" : ["id", "firstName", "lastName", "birthdate", "hiredate", "address", "contact"]
 		},
@@ -67,11 +68,13 @@
 				},
 				"email" : {"type" : "string"},
 
+				"supportRepId" : {"type" : "number"},
+				"supportRepLastName" : {"type" : "string"},
 
-				"_comment" : "cluster column",
-				"invoiceId"  : {"type" : "number"},
+				// CLUSTER COLUMNS
+				"invoiceId"  : {"type" : "number"}
 			},
-			"required" : ["id", "firstName", "lastName", "adress", "contact", "email"]
+			"required" : ["id", "firstName", "lastName", "address", "contact", "email"]
 		},
 
 		"Invoice" : {
@@ -79,26 +82,20 @@
 			"type" : "object",
 			"properties" : {
 				"id" : {"type" : "number"},
-				"customerFirstName" : {"$ref" : "#customer"},
-				"customerLastName" : {"$ref" : "#customer"},
 				"invoiceDate" : {"type" : "string"},
 				"billingAddress" : {"$ref" : "#address"},
-				"total" : {"type" : "number"}
-			},
-			"required" : ["id", "customer", "invoiceDate", "billingAddress", "total"]
-		},
+				"total" : {"type" : "number"},
 
-		"InvoiceLine" : {
-			"$id" : "#invoiceline",
-			"type" : "object",
-			"properties" : {
-				"id" : {"type" : "number"},
-				"invoice" : {"$ref" : "#invoice"},
-				"trackName" : {"$ref" : "#track"},
+				"customerId" : {"type" : "number"},
+				"customerLastName" : {"type" : "string"},
+
+				// CLUSTER COLUMNS
+				"trackId" : {"type" : "number"},
+				"trackName" : {"type" : "string"},
 				"unitPrice" : {"type" : "number"},
 				"quantity" : {"type" : "number"}
 			},
-			"required" : ["id", "invoice", "track", "unitPrice", "quantity"]
+			"required" : ["id", "customerId", "trackId", "invoiceDate", "billingAddress", "total"]
 		},
 
 		"Artist" : {
@@ -106,7 +103,11 @@
 			"type" : "object",
 			"properties" : {
 				"id" : {"type" : "number"},
-				"name" : {"type" : "string"}
+				"name" : {"type" : "string"},
+
+				// CLUSTER COLUMNS
+				"albumId" : {"type" : "number"},
+				"albumName" : {"type" : "string"}
 			},
 			"required" : ["id", "name"]
 		},
@@ -116,7 +117,11 @@
 			"type" : "object",
 			"properties" : {
 				"id" : {"type" : "number"},
-				"name" : {"type" : "string"}
+				"name" : {"type" : "string"},
+
+				// CLUSTER COLUMUNS
+				"trackId" : {"type" : "number"},
+				"trackName" : {"type" : "string"}
 			},
 			"required" : ["id", "name"]
 		},
@@ -126,7 +131,11 @@
 			"type" : "object",
 			"properties" : {
 				"id" : {"type" : "number"},
-				"name" : {"type" : "string"}
+				"name" : {"type" : "string"},
+
+				// CLUSTER COLUMUNS
+				"trackId" : {"type" : "number"},
+				"trackName" : {"type" : "string"}
 			},
 			"required" : ["id", "name"]
 		},
@@ -137,7 +146,11 @@
 			"properties" : {
 				"id" : {"type" : "number"},
 				"title" : {"type" : "string"},
-				"artist" : {"$ref" : "#artist"}
+				"artist" : {"type" : "string"},
+
+				// CLUSTER COLUMUNS
+				"trackId" : {"type" : "number"},
+				"trackName" : {"type" : "string"}
 			},
 			"required" : ["id", "title", "artist"]
 		},		
@@ -148,15 +161,20 @@
 			"properties" : {
 				"id" : {"type" : "number"},
 				"name" : {"type" : "string"},
-				"album" : {"$ref" : "#album"},
-				"mediatype" : {"$ref" : "#mediatype"},
-				"genre" : {"$ref" : "#genre"},
 				"composer" : {"type" : "string"},
 				"milliseconds" : {"type" : "number"},
 				"bytes" : {"type" : "number"},
-				"unitprice" : {"type" : "number"}
+				"unitprice" : {"type" : "number"},
+
+				"album" : {"type" : "string"},
+				"genre" : {"type" : "string"},
+				"artist" : {"type" : "string"},
+
+				// CLUSTER COLUMN
+				"playlistId" : {"type" : "number"},
+				"playlistName" : {"type" : "string"}
 			},
-			"required" : ["id", "name", "mediatype", "genre", "milliseconds", "bytes", "unitprice"]
+			"required" : ["id", "name", "album", "mediatype", "genre", "milliseconds", "bytes", "unitprice"]
 		},
 
 		"Playlist" : {
@@ -164,19 +182,13 @@
 			"type" : "object",
 			"properties" : {
 				"id" : {"type" : "number"},
-				"name" : {"type" : "string"}
+				"name" : {"type" : "string"},
+
+				// CLUSTER COLUMN
+				"trackId" : {"type" : "number"},
+				"trackName" : {"type" : "string"}
 			},
 			"required" : ["id", "name"]
-		},
-
-		"PlaylistTrack" : {
-			"$id" : "playlisttrack",
-			"type" : "object",
-			"properties" : {
-				"playlist" : {"$ref" : "#playlist"},
-				"track" : {"$ref" : "track"}
-			},
-			"required" : ["playlist", "track"]
-		}	
+		},	
 	}
 }
