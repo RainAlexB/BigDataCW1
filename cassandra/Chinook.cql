@@ -13,8 +13,8 @@ CREATE COLUMNFAMILY Employee (
 	firstName varchar,
 	lastName varchar,
 	title varchar,
-	birthDate varchar,
-	hireDate varchar,
+	birthDate timestamp,
+	hireDate timestamp,
 	address frozen<address>,
 	contact map<text, varchar>,
 	email varchar,
@@ -47,7 +47,7 @@ CREATE COLUMNFAMILY Customer (
 
 CREATE COLUMNFAMILY Invoice (
 	invoiceId int,
-	invoiceDate varchar,
+	invoiceDate timestamp,
 	billingAddress frozen<address>,
 	total decimal,
 
