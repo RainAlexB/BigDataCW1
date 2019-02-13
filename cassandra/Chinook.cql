@@ -1,3 +1,5 @@
+USE rb105;
+
 CREATE TYPE address (
 	street varchar,
 	city varchar,
@@ -23,7 +25,7 @@ CREATE COLUMNFAMILY Employee (
 	-- CLUSTER COLUMN
 	customerId int,
 	customerLastName varchar,
-	PRIMARY KEY (employeeId, customerId)
+	PRIMARY KEY (employeeId, customerId, customerLastName)
 ) WITH CLUSTERING ORDER BY (customerId ASC);
 
 CREATE COLUMNFAMILY Customer (
@@ -57,7 +59,7 @@ CREATE COLUMNFAMILY Invoice (
 	trackName varchar,
 	unitPrice decimal,
 	quantity int,
-	PRIMARY KEY (invoiceId, trackId)
+	PRIMARY KEY (invoiceId, trackId, trackName)
 ) WITH CLUSTERING ORDER BY (trackId ASC);
 
 CREATE COLUMNFAMILY Artist (
@@ -67,7 +69,7 @@ CREATE COLUMNFAMILY Artist (
 	-- CLUSTER COLUMN
 	albumId int,
 	albumTitle varchar,
-	PRIMARY KEY (artistId, albumId)
+	PRIMARY KEY (artistId, albumId, albumTitle)
 ) WITH CLUSTERING ORDER BY (albumId ASC);
 
 CREATE COLUMNFAMILY MediaType (
@@ -77,7 +79,7 @@ CREATE COLUMNFAMILY MediaType (
 	-- CLUSTER COLUMN
 	trackId int,
 	trackName varchar,
-	PRIMARY KEY (mediaTypeId, trackId)
+	PRIMARY KEY (mediaTypeId, trackId, trackName)
 ) WITH CLUSTERING ORDER BY (trackId ASC);
 
 CREATE COLUMNFAMILY Genre (
@@ -87,7 +89,7 @@ CREATE COLUMNFAMILY Genre (
 	-- CLUSTER COLUMN
 	trackId int,
 	trackName varchar,
-	PRIMARY KEY (genreId, trackId)
+	PRIMARY KEY (genreId, trackId, trackName)
 ) WITH CLUSTERING ORDER BY (trackId ASC);
 
 CREATE COLUMNFAMILY Album (
@@ -98,7 +100,7 @@ CREATE COLUMNFAMILY Album (
 	-- CLUSTER COLUMN
 	trackId int,
 	trackName varchar,
-	PRIMARY KEY (albumId, trackId)
+	PRIMARY KEY (albumId, trackId, trackName)
 ) WITH CLUSTERING ORDER BY (trackId ASC);
 
 CREATE COLUMNFAMILY Track (
@@ -115,8 +117,8 @@ CREATE COLUMNFAMILY Track (
 
 	-- CLUSTER COLUMN
 	playlistId int,
-	playlistName varchar
-	PRIMARY KEY (trackId, playlistId)
+	playlistName varchar,
+	PRIMARY KEY (trackId, playlistId, playlistName)
 ) WITH CLUSTERING ORDER BY (playlistId ASC);
 
 CREATE COLUMNFAMILY Playlist (
@@ -126,26 +128,37 @@ CREATE COLUMNFAMILY Playlist (
 	-- CLUSTER COLUMN
 	trackId int,
 	trackName varchar,
-	PRIMARY KEY (playlistId, trackId)
+	PRIMARY KEY (playlistId, trackId, trackName)
 ) WITH CLUSTERING ORDER BY (trackId ASC);
 
 
 
 -- To facilitate searches on unindexed columns
-CREATE INDEX ON Employee (firstName, lastName, reportsToLastName, customerLastName);
+CREATE INDEX fname_emp_idx ON Employee (firstName);
+CREATE INDEX lname_emp_idx ON Employee (lastName);
+CREATE INDEX reptoname_emp_idx ON Employee (reportsToLastName);
 
-CREATE INDEX ON Customer (firstName, lastName, company, supportRepLastName, invoiceId);
+CREATE INDEX fname_cus_idx ON Customer (firstName);
+CREATE INDEX lname_cus_idx ON Customer (lastName);
+CREATE INDEX comp_cus_idx ON Customer (company);
+CREATE INDEX suppname_cus_idx ON Customer (supportRepLastName);
 
-CREATE INDEX ON Invoice (invoiceDate, customerLastName, trackName);
+CREATE INDEX date_inv_idx ON Invoice (invoiceDate);
+CREATE INDEX cusname_inv_idx ON Invoice (customerLastName);
 
-CREATE INDEX ON Artist (name);
+CREATE INDEX name_art_idx ON Artist (name);
 
-CREATE INDEX ON MediaType (name);
+CREATE INDEX name_med_idx ON MediaType (name);
 
-CREATE INDEX ON Genre (name);
+CREATE INDEX name_gen_idx ON Genre (name);
 
-CREATE INDEX ON Album (title, artistName, trackName);
+CREATE INDEX title_alb_idx ON Album (title);
+CREATE INDEX artname_alb_idx ON Album (artistName);
 
-CREATE INDEX ON Track (name, composer, albumTitle, genre, artistName, playlistName);
+CREATE INDEX name_trk_idx ON Track (name);
+CREATE INDEX comp_trk_idx ON Track (composer);
+CREATE INDEX alb_trk_idx ON Track (albumTitle);
+CREATE INDEX gen_trk_idx ON Track (genre);
+CREATE INDEX artname_trk_idx ON Track (artistName);
 
-CREATE INDEX ON Playlist (name, trackName);
+CREATE INDEX name_plst_idx ON Playlist (name);
