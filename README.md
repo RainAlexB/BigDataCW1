@@ -6,7 +6,8 @@ MySQL -> Cassandra </br>
 
 
 To execute any sql files make sure to replace `USE rb105` in the file with `USE <your_username>`
-#### Load to Neo4J
+
+### Load to Neo4J
 Make sure the csvs in `neo4j/CSVs/` are in the import repository of your neo4j installation
 and execute
 ```
